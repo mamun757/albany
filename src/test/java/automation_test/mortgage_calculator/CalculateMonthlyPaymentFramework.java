@@ -2,6 +2,8 @@ package automation_test.mortgage_calculator;
 
 import command_providers.ActOn;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import listeners.LoggerForParallelTests;
+import listeners.RetryFailedTests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +16,7 @@ import utilities.DateUtils;
 import utilities.ReadConfigFiles;
 
 
-public class CalculateMonthlyPaymentFramework {
+public class CalculateMonthlyPaymentFramework extends LoggerForParallelTests {
     private static final Logger LOGGER = LogManager.getLogger(CalculateMonthlyPaymentFramework.class);
     WebDriver driver;
 
@@ -28,7 +30,7 @@ public class CalculateMonthlyPaymentFramework {
         LOGGER.info("Browser is successfully initiated with the URL: " + url);
     }
 
-    @Test
+    @Test(retryAnalyzer = RetryFailedTests.class)
     public void calculateMonthlyPayment(){
         String Date = DateUtils.returnNextMonth();
         String[] dateArray = Date.split("-");

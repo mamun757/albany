@@ -1,0 +1,199 @@
+2021-09-27 18:37:03.245 [main][5608] INFO  automation_test.mortgage_calculator.CalculateMonthlyPaymentFramework - -----Start Test-(CalculateMonthlyPaymentFramework)--
+2021-09-27 18:37:04.667 [main][7030] INFO  automation_test.mortgage_calculator.CalculateMonthlyPaymentFramework - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-09-27 18:37:04.823 [main][7186] DEBUG page_objects_model.Home_Page - Entered Home price is :300000
+2021-09-27 18:37:05.155 [main][7518] DEBUG page_objects_model.Home_Page - Entered DownPayment is :60000
+2021-09-27 18:37:05.310 [main][7673] DEBUG page_objects_model.Home_Page - Clicked on Radio Button
+2021-09-27 18:37:05.426 [main][7789] DEBUG page_objects_model.Home_Page - Entered Loan Amount is :240000
+2021-09-27 18:37:05.595 [main][7958] DEBUG page_objects_model.Home_Page - Entered Interest rate is :3
+2021-09-27 18:37:05.760 [main][8123] DEBUG page_objects_model.Home_Page - Entered LoanTerm  is :30
+2021-09-27 18:37:05.929 [main][8292] DEBUG page_objects_model.Home_Page - Select Month is :Oct
+2021-09-27 18:37:06.096 [main][8459] DEBUG page_objects_model.Home_Page - Entered Year is :2021
+2021-09-27 18:37:06.278 [main][8641] DEBUG page_objects_model.Home_Page - Entered Property Tax is 5000
+2021-09-27 18:37:06.461 [main][8824] DEBUG page_objects_model.Home_Page - Entered PMI is 0.5
+2021-09-27 18:37:06.633 [main][8996] DEBUG page_objects_model.Home_Page - Entered HOI is 1000
+2021-09-27 18:37:06.816 [main][9179] DEBUG page_objects_model.Home_Page - Entered HOA is 100
+2021-09-27 18:37:07.039 [main][9402] DEBUG page_objects_model.Home_Page - Select LoanType  is FHA
+2021-09-27 18:37:07.182 [main][9545] DEBUG page_objects_model.Home_Page - Select Buy or Refinance option Buy
+2021-09-27 18:37:07.339 [main][9702] DEBUG page_objects_model.Home_Page - Clicked on Calculator button
+2021-09-27 18:37:08.299 [main][10662] DEBUG page_objects_model.Home_Page - Monthly Payment is validated by: $1,611.85
+2021-09-27 18:37:09.069 [main][11432] INFO  automation_test.mortgage_calculator.CalculateMonthlyPaymentFramework - Browser is closed
+2021-09-27 18:37:09.069 [main][11432] INFO  automation_test.mortgage_calculator.CalculateMonthlyPaymentFramework - ---------------End Test-(CalculateMonthlyPaymentFramework)
+2021-09-27 18:37:10.164 [main][12527] INFO  automation_test.php_travels.VerifyTitle - -----Start Test-(Verify Php Travels Titles)--
+2021-09-27 18:37:10.899 [main][13262] DEBUG automation_test.php_travels.VerifyTitle - Browser starts with the URL: https://phptravels.com/demo/
+2021-09-27 18:37:11.591 [main][13954] INFO  automation_test.php_travels.VerifyTitle - -----End Test-(Verify Php Travels Titles)--
+2021-09-27 18:37:12.710 [main][15073] INFO  automation_test.mortgage_calculator.CalculateRates - -----Start Test-(Calculate Rates)--
+2021-09-27 18:37:14.198 [main][16561] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-09-27 18:37:14.202 [main][16565] DEBUG page_objects_model.NavigationBar - Mouse hove to the Rates Link
+2021-09-27 18:37:14.406 [main][16769] DEBUG page_objects_model.NavigationBar - Navigating to the real apr page
+2021-09-27 18:37:15.710 [main][18073] DEBUG page_objects_model.Home_Page - Wait for the RealApr Page
+2021-09-27 18:37:15.756 [main][18119] DEBUG page_objects_model.Home_Page - Entered Home value is :200000
+2021-09-27 18:37:16.255 [main][18618] DEBUG page_objects_model.Home_Page - Clicked on the Button
+2021-09-27 18:37:16.462 [main][18825] DEBUG page_objects_model.Home_Page - Entered DownPayment is :15000
+2021-09-27 18:37:16.766 [main][19129] DEBUG page_objects_model.Home_Page - Entered Interest Rate is :3
+2021-09-27 18:37:16.965 [main][19328] DEBUG page_objects_model.Home_Page - Clicked on the Calculate Button
+2021-09-27 18:37:17.949 [main][20312] DEBUG page_objects_model.Home_Page - validate the Actual rate : 3.130%
+2021-09-27 18:37:18.893 [main][21256] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is successfully closed
+2021-09-27 18:37:18.893 [main][21256] INFO  automation_test.mortgage_calculator.CalculateRates - -----End Test-(Calculate Rates)--
+2021-09-27 18:37:20.004 [main][22367] INFO  selenium_basic_test.TestngTest - -----Start Test-(Calculate Monthly Payment)--
+2021-09-27 18:37:25.221 [main][27584] INFO  selenium_basic_test.TestngTest - -----End Test-(Calculate Monthly Payment)--
+2021-09-27 18:37:25.416 [main][27779] INFO  utilities.SqlConnector - Connection to the postgreSql server successfully
+2021-09-27 18:37:25.465 [main][27828] INFO  api_test.DeleteTest - ----Api Test: Delete method-----
+2021-09-27 18:37:26.854 [main][29217] INFO  api_test.DeleteTest - ------End of Delete Method---------
+2021-09-27 18:37:26.866 [main][29229] INFO  api_test.GetTestWithPathVariable - ----Api Test: Read(Get) a Single user-----
+2021-09-27 18:37:26.991 [main][29354] DEBUG api_test.GetTestWithPathVariable - {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-09-27 18:37:27.414 [main][29777] INFO  api_test.GetTestWithPathVariable - ------End of Read(Get) of A single User---------
+2021-09-27 18:37:27.431 [main][29794] INFO  api_test.GetTestWithQueryParameter - ----Api Test: Read(Get)Query Parameter All users-----
+2021-09-27 18:37:27.700 [main][30063] DEBUG api_test.GetTestWithQueryParameter - {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-09-27 18:37:27.715 [main][30078] INFO  api_test.GetTestWithQueryParameter - ------End of Read(Get) Query Parameter of All Users---------
+2021-09-27 18:37:27.731 [main][30094] INFO  api_test.NegativeTest - ----Api Test:negative test of users-----
+2021-09-27 18:37:28.013 [main][30376] DEBUG api_test.NegativeTest - {
+    
+}
+2021-09-27 18:37:28.013 [main][30376] INFO  api_test.NegativeTest - ------end of negative test---------
+2021-09-27 18:37:28.013 [main][30376] INFO  api_test.PatchTest - ----Api Test: Patch Method-----
+2021-09-27 18:37:28.144 [main][30507] DEBUG api_test.PatchTest - New user Job Title: Director
+2021-09-27 18:37:28.410 [main][30773] DEBUG api_test.PatchTest - {
+    "job": "Director",
+    "updatedAt": "2021-09-27T22:37:26.544Z"
+}
+2021-09-27 18:37:28.426 [main][30789] INFO  api_test.PatchTest - ------End of Patch Method ---------
+2021-09-27 18:37:28.426 [main][30789] INFO  api_test.PostTest - ----Api Test: Post Method-----
+2021-09-27 18:37:28.490 [main][30853] DEBUG api_test.PostTest - New user name: Lula Gerhold
+2021-09-27 18:37:28.495 [main][30858] DEBUG api_test.PostTest - New user Job Title: Agent
+2021-09-27 18:37:28.781 [main][31144] DEBUG api_test.PostTest - {
+    "name": "Lula Gerhold",
+    "job": "Agent",
+    "id": "451",
+    "createdAt": "2021-09-27T22:37:26.916Z"
+}
+2021-09-27 18:37:28.781 [main][31144] INFO  api_test.PostTest - ------End of Post Method ---------
+2021-09-27 18:37:28.797 [main][31160] INFO  api_test.PutTest - ----Api Test: Put Method-----
+2021-09-27 18:37:28.812 [main][31175] DEBUG api_test.PutTest - New user name: Angelyn Shields DDS
+2021-09-27 18:37:28.812 [main][31175] DEBUG api_test.PutTest - New user Job Title: Strategist
+2021-09-27 18:37:29.081 [main][31444] DEBUG api_test.PutTest - {
+    "name": "Angelyn Shields DDS",
+    "job": "Strategist",
+    "updatedAt": "2021-09-27T22:37:27.218Z"
+}
+2021-09-27 18:37:29.094 [main][31457] INFO  api_test.PutTest - ------End of Put Method ---------
+2021-09-27 18:37:29.098 [main][31461] INFO  api_test.SimpleGetTest - ----Api Test: Read(Get) All users-----
+2021-09-27 18:37:29.321 [main][31684] DEBUG api_test.SimpleGetTest - {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-09-27 18:37:29.337 [main][31700] INFO  api_test.SimpleGetTest - ------End of Read(Get) All Users---------
